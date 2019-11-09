@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>六角甜點工房-購物車</title>
+    <!-- fb連結 -->
+    <meta property="og:title" content="首頁  | 六角甜點工坊" />
+    <meta property="og:description" content="使用 Bootstrap 結合 Sass 結束這回合吧" />
+    <meta property="og:site_name" content="六角學院" />
+    <meta property="og:locale" content="zh_TW" />
+
+    <link rel="icon" href="./images/favicon_48.ico">
+    <!--icon設定-->
+    <link rel="stylesheet" href="./stylesheets/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--fontawesome cdn-->
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <div class="container font-weight-bolder">
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--logo響應式-->
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/logo-all-dark.svg" width="220" height="40" alt="" class="d-none d-md-inline-block">
+                <img src="./images/logotype-sm-dark.svg" width="114" height="18" alt=""
+                    class="d-inline-block d-md-none">
+            </a>
+            <!--carts order的使用-->
+            <a class="nav-link text-primary d-flex order-md-1" href="carts.html">
+                <i class="fas fa-shopping-cart "></i></a>
+            <!--navbar選單-->
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">甜點</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-md-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="text-center bg-primary-lighter h4 mb-0 py-4">
+                    您的購物車
+                </h1>
+                <div class="cart-item">
+                    <div class="cart-item-img"
+                        style="background-image: url(https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce7267675921fc7e41b5610f49750a40&auto=format&fit=crop&w=685&q=80);">
+                    </div>
+                    <div class="cart-item-direction">
+                        <div class="cart-item-name">
+                            比薩馬卡塔 <br>NT$200
+                        </div>
+                        <div class="cart-item-number">
+                            <div class="input-group d-flex">
+                                <div class="input-group-prepend cart-item-square">
+                                    <span class="input-group-text" id="basic-addon1">-</span>
+                                </div>
+                                <input type="text" class="form-control cart-item-square" placeholder="2"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <div class="input-group-append cart-item-square">
+                                    <span class="input-group-text" id="basic-addon2">+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-item-price">
+                            <span>
+                                NT$400
+                            </span>
+                        </div>
+                        <div class="cart-item-remove ">
+                            <i class="fas fa-trash-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex d-md-none border-bottom">
+                    <div class="cart-item-price  ml-auto h4">
+                        <span>
+                            NT$400
+                        </span>
+                    </div>
+                    <div class="cart-item-remove ml-5">
+                        <i class="fas fa-trash-alt"></i>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-item-img"
+                        style="background-image: url(https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce7267675921fc7e41b5610f49750a40&auto=format&fit=crop&w=685&q=80);">
+                    </div>
+                    <div class="cart-item-direction">
+                        <div class="cart-item-name">
+                            比薩馬卡塔 <br>NT$200
+                        </div>
+                        <div class="cart-item-number">
+                            <div class="input-group d-flex">
+                                <div class="input-group-prepend cart-item-square">
+                                    <span class="input-group-text" id="basic-addon1">-</span>
+                                </div>
+                                <input type="text" class="form-control cart-item-square" placeholder="2"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <div class="input-group-append cart-item-square">
+                                    <span class="input-group-text" id="basic-addon2">+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-item-price">
+                            <span>
+                                NT$400
+                            </span>
+                        </div>
+                        <div class="cart-item-remove ">
+                            <i class="fas fa-trash-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex d-md-none border-bottom">
+                    <div class="cart-item-price  ml-auto h4">
+                        <span>
+                            NT$400
+                        </span>
+                    </div>
+                    <div class="cart-item-remove ml-5">
+                        <i class="fas fa-trash-alt"></i>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-item-img"
+                        style="background-image: url(https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce7267675921fc7e41b5610f49750a40&auto=format&fit=crop&w=685&q=80);">
+                    </div>
+                    <div class="cart-item-direction">
+                        <div class="cart-item-name">
+                            比薩馬卡塔 <br>NT$200
+                        </div>
+                        <div class="cart-item-number">
+                            <div class="input-group d-flex">
+                                <div class="input-group-prepend cart-item-square">
+                                    <span class="input-group-text" id="basic-addon1">-</span>
+                                </div>
+                                <input type="text" class="form-control cart-item-square" placeholder="2"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <div class="input-group-append cart-item-square">
+                                    <span class="input-group-text" id="basic-addon2">+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-item-price">
+                            <span>
+                                NT$400
+                            </span>
+                        </div>
+                        <div class="cart-item-remove ">
+                            <i class="fas fa-trash-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex d-md-none border-bottom">
+                    <div class="cart-item-price  ml-auto h4">
+                        <span>
+                            NT$400
+                        </span>
+                    </div>
+                    <div class="cart-item-remove ml-5">
+                        <i class="fas fa-trash-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0">
+                    <div class="card-body order ">
+                        <h3 class="card-title py-3 py-md-0">訂單摘要</h5>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                                <span class="h5">小計</span>
+                                <span>NT$2500</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span class="h5">運費</span>
+                                <span>NT$200</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span class="h4">總計</span>
+                                <span>NT$2700</span>
+                            </div>
+                    </div>
+                    <div class="mx-md-0" style="margin-left:-15px;margin-right:-15px;">
+                        <a href="checkout-1.html" class="d-block bg-accent btn-lg text-center rounded-0"
+                            style="font-weight: 600;">結帳</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <section class="py-5 bg-primary">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div
+                    class="col-md-5 d-flex align-items-center justify-content-center justify-content-md-start mb-4 mb-md-0">
+                    <img src="./images/logo-light.svg" alt="" width="40" height="40">
+                    <span class="text-white h4 mb-0 mx-4">訂閱你我的甜蜜郵件</span>
+                </div>
+                <div class="col-md-5">
+                    <div class="form-square d-flex justify-content-between">
+                        <label for="connection" class="text-primary d-flex align-items-center py-3 px-4 mb-0">
+                            <i class="fas fa-envelope" style="font-size: 20px;"></i>
+                        </label>
+                        <input type="email" id="connection" class="form-input w-100">
+                        <button class="btn btn-accent btn-lg">
+                            <i class="fas fa-arrow-right px-1"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-primary-lighter">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 d-flex flex-column justify-content-between">
+                    <div>
+                        <img src="./images/logotype-sm-dark.svg" alt="" height="27">
+                    </div>
+                    <ul class="list-unstyled mb-0">
+                        <li>04-24071490</li>
+                        <li><a href="mailto:sweetast@email.com">sweetaste@email</a></li>
+                        <li>412 台中市大里區樹王里萬安路89巷11號1樓</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 d-flex justify-content-end">
+                    <img src="./images/sm-今天是個吃甜點的好日子.svg" alt="" width="60" class="d-none d-md-block">
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-5">
+                    <img src="./images/ic-line@.svg" alt="" width="30" height="32">
+                    <img src="./images/ic-facebook.svg" alt="" width="30" height="32">
+                </div>
+                <div class="col-md-5 d-flex justify-content-end">
+                    <span>© 2018 Sweetaste* All Rights Reserved</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./javascripts/vendor.js"></script>
+
+</body>
+
+
+</html>
